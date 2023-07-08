@@ -107,3 +107,37 @@ body {
 .menu .active {
   color: #e2336b;
 }
+
+.menu .icon {
+  margin-right: 1rem;
+  font-size: 20px;
+}
+
+.menu a:hover::before,
+.menu > active::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 2px;
+  height: 17px;
+  background: #e2336b;
+}
+.main-home {
+  padding: 20px;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  width: 200px;
+  height: 2.4rem;
+  padding: 10px;
+  border-radius: 10px;
+}
